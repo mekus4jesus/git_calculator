@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color: black;
+    display: flex;
+    padding: 5rem;
+
+
+}
+.container{
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+    border: 2px solid #ccc;
+}
+.nunb{
+    font-size: xx-large;
+    text-align: right;
+    font-weight: 500;
+    padding: 2rem 0 2rem 0;
+    margin-bottom: 1rem;
+}
+hr{
+  width: 3rem;
+  margin: auto;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.8rem;
+}
+button{
+    padding: 1rem;
+    border: none;
+    font-size: xx-large;
+    background-color: #fff;
+}
+button:hover{
+    background-color: aqua;
+}
+#equal{
+    background-color: aquamarine;
+    color: #fff;
+    grid-column: 4/span 1;
+     grid-row: 4/span 3;
+}
+
